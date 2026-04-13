@@ -1,0 +1,18 @@
+{
+  "product": "MYTHODIC",
+  "format_version": 1,
+  "presets": [
+    {"name":"Velvet Cathedral","description":"Soft luxury width and bloom."},
+    {"name":"Crown the Vocal","description":"Protect the center while support wraps around it."},
+    {"name":"Phantom Glue","description":"Fuse layered pads and synths."},
+    {"name":"Orbit Choir","description":"Wide halo with center preservation."},
+    {"name":"Dark Halo Bus","description":"Low-brightness space with dense edge shimmer."},
+    {"name":"Mythic Piano Bloom","description":"Adds controlled air and composite tone."},
+    {"name":"Glassfire Drums","description":"Transient-safe excitement and stereo contour."},
+    {"name":"Mono King","description":"Aggressive mono-compatibility protection."},
+    {"name":"Silver Air","description":"Upper-band diffusion and light spread."},
+    {"name":"Obsidian Width","description":"Dark wide image with restrained center collapse."},
+    {"name":"Fuse the Stack","description":"Composite-layer focus."},
+    {"name":"Eargasm Finalizer","description":"Polished wide finalizer preset."}
+  ]
+}

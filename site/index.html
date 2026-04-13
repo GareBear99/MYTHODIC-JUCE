@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MYTHODIC — Overlap Intelligence Plugin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MYTHODIC is a JUCE-based overlap-intelligence plugin concept for shaping how sounds fuse, separate, and occupy space.">
+  <meta name="keywords" content="JUCE plugin, VST3 plugin, audio DSP, stereo imaging, overlap intelligence, masking reduction, saturation plugin, mastering plugin">
+  <meta property="og:title" content="MYTHODIC — Overlap Intelligence Plugin">
+  <meta property="og:description" content="A public-facing JUCE plugin starter focused on overlap intelligence, spatial tone shaping, and premium layered sound.">
+  <meta property="og:type" content="website">
+  <style>
+    :root { color-scheme: dark; --bg:#090b12; --panel:#131828; --accent:#8d5bff; --accent2:#41dbc7; --text:#f5f7fb; --muted:#aab4cf; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: radial-gradient(circle at top, #2a184f, var(--bg) 42%); color:var(--text); }
+    .wrap { max-width:1100px; margin:0 auto; padding:48px 20px 72px; }
+    .hero, .grid article { background:rgba(19,24,40,0.88); border:1px solid rgba(255,255,255,0.08); border-radius:24px; box-shadow: 0 20px 60px rgba(0,0,0,0.28); }
+    .hero { padding:34px; }
+    .eyebrow { display:inline-block; color:var(--accent2); font-size:.82rem; letter-spacing:.14em; text-transform:uppercase; margin-bottom:14px; }
+    h1 { font-size:clamp(2.4rem,5vw,4.8rem); line-height:1; margin:0 0 16px; }
+    h2 { margin-top:0; }
+    p { color:var(--muted); line-height:1.65; }
+    .cta { display:flex; gap:14px; flex-wrap:wrap; margin-top:24px; }
+    .btn { display:inline-block; padding:12px 16px; border-radius:999px; text-decoration:none; color:var(--text); border:1px solid rgba(255,255,255,.12); }
+    .btn.primary { background:linear-gradient(90deg,var(--accent),#c56fff); border:none; }
+    .grid { display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); margin-top:24px; }
+    .grid article { padding:22px; }
+    code { color:#d8c7ff; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="eyebrow">JUCE / VST3 / AU / Standalone</span>
+      <h1>MYTHODIC</h1>
+      <p>MYTHODIC is a public-facing starter package for an overlap-intelligence plugin: a processor built to decide whether stacked sounds should separate, fuse, or crown, so layered productions feel wider, cleaner, and more intentional.</p>
+      <div class="cta">
+        <a class="btn primary" href="../README.md">Read the README</a>
+        <a class="btn" href="../Docs/roadmap.md">View roadmap</a>
+        <a class="btn" href="../Docs/dsp-design.md">DSP design</a>
+      </div>
+    </section>
+    <section class="grid">
+      <article><h2>Core idea</h2><p>Treat overlap itself as the musical event instead of fighting it with blunt EQ, width, or saturation.</p></article>
+      <article><h2>Current stack</h2><p><code>analysis → masking → decisions → oversampled tone → space → room → safety</code></p></article>
+      <article><h2>Status</h2><p>Starter repo. Real architecture, public docs, repo hygiene, and a compile-oriented JUCE baseline.</p></article>
+    </section>
+  </div>
+</body>
+</html>
